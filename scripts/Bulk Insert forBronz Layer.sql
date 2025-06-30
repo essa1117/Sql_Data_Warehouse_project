@@ -1,7 +1,7 @@
 
 /*
 =================================================
-Fill the Pronz Layer with Data From Files
+Fill the Bronze Layer with Data From Files
 =================================================
 */
 
@@ -48,7 +48,7 @@ with (
 
 select * from bronze.crm_sales_details;
 
---
+
 -------------
 --ERP TABLES
 -------------
@@ -64,7 +64,7 @@ with (
 
 select count(*) from bronze.erp_cust_az12;
 
-
+--
 
 TRUNCATE TABLE bronze.erp_loc_a101;
 
@@ -78,6 +78,7 @@ with (
 
 select * from bronze.erp_loc_a101;
 
+--
 
 TRUNCATE TABLE bronze.erp_px_cat_g1v2;
 
